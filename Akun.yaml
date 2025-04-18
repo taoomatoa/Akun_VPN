@@ -1,7 +1,39 @@
 proxies:
 
-  - name: Digitalocean, LLC 🇸🇬 (SG)
-    server: 104.22.5.240
+  - name: Digitalocean, LLC 🇸🇬 (VIDIO)
+    server: 104.22.4.240
+    port: 443
+    type: vless
+    uuid: 99e09016-356b-4f35-918f-f57567e3da0e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2.taoovpn.cloud
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: sg2.taoovpn.cloud
+    udp: true  
+
+  - name: Digitalocean, LLC 🇸🇬 (Doble YT)
+    server: 104.22.4.240
+    port: 443
+    type: vless
+    uuid: 99e09016-356b-4f35-918f-f57567e3da0e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2.taoovpn.cloud
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: sg2.taoovpn.cloud
+    udp: true  
+
+  - name: Digitalocean, LLC 🇸🇬 (Super)
+    server: 104.22.4.240
     port: 443
     type: vless
     uuid: 99e09016-356b-4f35-918f-f57567e3da0e
