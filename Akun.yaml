@@ -17,7 +17,7 @@ proxies:
     udp: true  
 
   - name: Digitalocean, LLC 🇸🇬 (Doble YT)
-    server: 104.22.4.240
+    server: 104.17.3.81
     port: 443
     type: vless
     uuid: 99e09016-356b-4f35-918f-f57567e3da0e
@@ -33,17 +33,17 @@ proxies:
     udp: true  
 
   - name: Digitalocean, LLC 🇸🇬 (Super)
-    server: 104.22.4.240
+    server: ava.game.naver.com
     port: 443
     type: vless
     uuid: 99e09016-356b-4f35-918f-f57567e3da0e
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg2.taoovpn.cloud
+    servername: ava.game.naver.com.sg2.taoovpn.cloud
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: sg2.taoovpn.cloud
+        Host: ava.game.naver.com.sg2.taoovpn.cloud
     udp: true  
