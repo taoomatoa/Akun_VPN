@@ -1,6 +1,6 @@
 proxies:
 
-  - name: Digitalocean, LLC 🇸🇬 (VIDIO)
+  - name: DO 🇸🇬 (VIDIO)
     server: 104.22.4.240
     port: 443
     type: vless
@@ -16,7 +16,7 @@ proxies:
         Host: sg2.taoovpn.cloud
     udp: true  
 
-  - name: Digitalocean, LLC 🇸🇬 (Doble YT)
+  - name: DO 🇸🇬 (Doble YT)
     server: 104.17.3.81
     port: 443
     type: vless
@@ -32,7 +32,7 @@ proxies:
         Host: sg2.taoovpn.cloud
     udp: true  
 
-  - name: Digitalocean, LLC 🇸🇬 (Super)
+  - name: DO 🇸🇬 (Super)
     server: ava.game.naver.com
     port: 443
     type: vless
