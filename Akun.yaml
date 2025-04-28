@@ -65,8 +65,8 @@ proxies:
     udp: true  
 
   
-  - name: Herza 🇮🇩 (Vidio)
-    server: 104.22.4.240
+  - name: Herza 🇮🇩 (Ilped)
+    server: 104.18.25.139
     type: vless
     port: 443
     uuid: ddf27957-0eb2-48a7-ad1c-6c460418bf61
