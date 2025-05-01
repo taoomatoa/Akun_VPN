@@ -16,7 +16,7 @@ proxies:
         Host: sg2.taoovpn.cloud
     udp: true  
 
-  - name: DO 🇸🇬 (Doble YT)
+  - name: DO 🇸🇬 (Doble YT IP)
     server: 104.17.3.81
     port: 443
     type: vless
@@ -78,6 +78,21 @@ proxies:
      path: /?ed=2048
      Headers: 
         Host: id2.taoovpn.cloud
+    udp: true  
+
+  - name: Herza 🇮🇩 (Doble YT zoom)
+    server: support.zoom.us
+    type: vless
+    port: 443
+    uuid: ddf27957-0eb2-48a7-ad1c-6c460418bf61
+    tls: true
+    skip-cert-verify: true 
+    servername: support.zoom.us.id2.taoovpn.cloud
+    network: ws
+    ws-opts: 
+     path: /?ed=2048
+     Headers: 
+        Host: support.zoom.us.id2.taoovpn.cloud
     udp: true  
 
   
