@@ -1,113 +1,113 @@
 proxies:
 
-  - name: DO 🇸🇬 (VIDIO)
-    server: 104.22.4.240
-    port: 443
-    type: vless
-    uuid: 99e09016-356b-4f35-918f-f57567e3da0e
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2.taoovpn.cloud
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: sg2.taoovpn.cloud
-    udp: true  
+- name: DO 🇸🇬 (VIDIO)
+  server: 104.22.4.240
+  port: 443
+  type: vless
+  uuid: 99e09016-356b-4f35-918f-f57567e3da0e
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg2.taoovpn.cloud
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: sg2.taoovpn.cloud
+  udp: true  
 
-  - name: DO 🇸🇬 (Doble YT IP)
-    server: 104.17.3.81
-    port: 443
-    type: vless
-    uuid: 99e09016-356b-4f35-918f-f57567e3da0e
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2.taoovpn.cloud
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: sg2.taoovpn.cloud
-    udp: true  
+- name: DO 🇸🇬 (Doble YT IP)
+  server: 104.17.3.81
+  port: 443
+  type: vless
+  uuid: 99e09016-356b-4f35-918f-f57567e3da0e
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg2.taoovpn.cloud
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: sg2.taoovpn.cloud
+  udp: true  
 
-  - name: DO 🇸🇬 (Super)
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: 99e09016-356b-4f35-918f-f57567e3da0e
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.sg2.taoovpn.cloud
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: ava.game.naver.com.sg2.taoovpn.cloud
-    udp: true  
+- name: DO 🇸🇬 (Super)
+  server: ava.game.naver.com
+  port: 443
+  type: vless
+  uuid: 99e09016-356b-4f35-918f-f57567e3da0e
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: ava.game.naver.com.sg2.taoovpn.cloud
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: ava.game.naver.com.sg2.taoovpn.cloud
+  udp: true  
 
     
-  - name: CTeknologi 🇮🇩 (Vidio)
-    server: 104.22.4.240
-    type: vless
-    port: 443
-    uuid: 2d31d87f-78bf-4410-97c9-a8a083211eb7
-    tls: true
-    skip-cert-verify: true 
-    servername: id1.taoovpn.cloud
-    network: ws
-    ws-opts: 
-     path: /?ed=2048
-     Headers: 
-        Host: id1.taoovpn.cloud
-    udp: true  
+- name: CTeknologi 🇮🇩 (Vidio)
+  server: 104.22.4.240
+  type: vless
+  port: 443
+  uuid: 2d31d87f-78bf-4410-97c9-a8a083211eb7
+  tls: true
+  skip-cert-verify: true 
+  servername: id1.taoovpn.cloud
+  network: ws
+  ws-opts: 
+    path: /?ed=2048
+    Headers: 
+      Host: id1.taoovpn.cloud
+  udp: true  
 
   
-  - name: Herza 🇮🇩 (Ilped)
-    server: 104.18.25.139
-    type: vless
-    port: 443
-    uuid: ddf27957-0eb2-48a7-ad1c-6c460418bf61
-    tls: true
-    skip-cert-verify: true 
-    servername: id2.taoovpn.cloud
-    network: ws
-    ws-opts: 
-     path: /?ed=2048
-     Headers: 
-        Host: id2.taoovpn.cloud
-    udp: true  
+- name: Herza 🇮🇩 (Ilped)
+  server: 104.18.25.139
+  type: vless
+  port: 443
+  uuid: ddf27957-0eb2-48a7-ad1c-6c460418bf61
+  tls: true
+  skip-cert-verify: true 
+  servername: id2.taoovpn.cloud
+  network: ws
+  ws-opts: 
+    path: /?ed=2048
+    Headers: 
+      Host: id2.taoovpn.cloud
+  udp: true  
 
-  - name: Herza 🇮🇩 (Doble YT zoom)
-    server: support.zoom.us
-    type: vless
-    port: 443
-    uuid: ddf27957-0eb2-48a7-ad1c-6c460418bf61
-    tls: true
-    skip-cert-verify: true 
-    servername: support.zoom.us.id2.taoovpn.cloud
-    network: ws
-    ws-opts: 
-     path: /?ed=2048
-     Headers: 
-        Host: support.zoom.us.id2.taoovpn.cloud
-    udp: true  
+- name: Herza 🇮🇩 (Doble YT zoom)
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: ddf27957-0eb2-48a7-ad1c-6c460418bf61
+  tls: true
+  skip-cert-verify: true 
+  servername: support.zoom.us.id2.taoovpn.cloud
+  network: ws
+  ws-opts: 
+    path: /?ed=2048
+    Headers: 
+      Host: support.zoom.us.id2.taoovpn.cloud
+  udp: true  
 
   
-  - name: Melbi 🇸🇬 (Vidio)
-    server: 104.22.4.240
-    port: 443
-    type: vless
-    uuid: 77147492-4837-4338-b0e6-7b9cbbb749db
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg1.taoovpn.cloud
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: sg1.taoovpn.cloud
-    udp: true  
+- name: Melbi 🇸🇬 (Vidio)
+  server: 104.22.4.240
+  port: 443
+  type: vless
+  uuid: 77147492-4837-4338-b0e6-7b9cbbb749db
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg1.taoovpn.cloud
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: sg1.taoovpn.cloud
+  udp: true  
