@@ -1,6 +1,6 @@
 proxies:
 
-- name: DO 🇸🇬 (VIDIO)
+- name: DO 🇸🇬 (vidio 1)
   server: 104.22.4.240
   port: 443
   type: vless
@@ -32,7 +32,7 @@ proxies:
       Host: sg2.taoovpn.cloud
   udp: true  
 
-- name: DO 🇸🇬 (Super)
+- name: DO 🇸🇬 (super)
   server: ava.game.naver.com
   port: 443
   type: vless
@@ -49,8 +49,8 @@ proxies:
   udp: true  
 
     
-- name: CTeknologi 🇮🇩 (Vidio)
-  server: 104.22.4.240
+- name: CTeknologi 🇮🇩 (vidio 2)
+  server: 172.67.5.14
   type: vless
   port: 443
   uuid: 2d31d87f-78bf-4410-97c9-a8a083211eb7
@@ -96,18 +96,18 @@ proxies:
   udp: true  
 
   
-- name: Melbi 🇸🇬 (Vidio)
-  server: 104.22.4.240
+- name: Melbi 🇸🇬 (Vidio 3)
+  server: quiz.int.vidio.com
   port: 443
   type: vless
   uuid: 77147492-4837-4338-b0e6-7b9cbbb749db
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: sg1.taoovpn.cloud
+  servername: quiz.int.vidio.com.sg1.taoovpn.cloud
   network: ws
   ws-opts:
     path: /?ed=2048
     headers:
-      Host: sg1.taoovpn.cloud
+      Host: quiz.int.vidio.com.sg1.taoovpn.cloud
   udp: true  
