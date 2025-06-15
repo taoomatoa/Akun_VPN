@@ -1,6 +1,6 @@
 proxies:
 
-- name: DO 🇸🇬 (vidio 1)
+- name: DO 🇸🇬 (Vidio 240)
   server: 104.22.4.240
   port: 443
   type: vless
@@ -14,6 +14,22 @@ proxies:
     path: /?ed=2048
     headers:
       Host: sg2.taoovpn.cloud
+  udp: true  
+
+  - name: DO 🇸🇬 (Doble YT ZOOM)
+  server: support.zoom.us
+  port: 443
+  type: vless
+  uuid: 99e09016-356b-4f35-918f-f57567e3da0e
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.sg2.taoovpn.cloud
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: support.zoom.us.sg2.taoovpn.cloud
   udp: true  
 
 - name: DO 🇸🇬 (Doble YT IP)
@@ -32,7 +48,7 @@ proxies:
       Host: sg2.taoovpn.cloud
   udp: true  
 
-- name: DO 🇸🇬 (super)
+- name: DO 🇸🇬 (Super AVA)
   server: ava.game.naver.com
   port: 443
   type: vless
@@ -49,7 +65,7 @@ proxies:
   udp: true  
 
     
-- name: CTeknologi 🇮🇩 (vidio 2)
+- name: CTeknologi 🇮🇩 (Vidio 14)
   server: 172.67.5.14
   type: vless
   port: 443
@@ -65,7 +81,7 @@ proxies:
   udp: true  
 
   
-- name: Herza 🇮🇩 (Ilped)
+- name: Herza 🇮🇩 (ILPED 139)
   server: 104.18.25.139
   type: vless
   port: 443
@@ -80,7 +96,7 @@ proxies:
       Host: id2.taoovpn.cloud
   udp: true  
 
-- name: Herza 🇮🇩 (Doble YT zoom)
+- name: Herza 🇮🇩 (Doble YT ZOOM)
   server: support.zoom.us
   type: vless
   port: 443
@@ -96,7 +112,7 @@ proxies:
   udp: true  
 
   
-- name: Melbi 🇸🇬 (Vidio 3)
+- name: Melbi 🇸🇬 (Vidio QUIZ)
   server: quiz.int.vidio.com
   port: 443
   type: vless
