@@ -16,7 +16,7 @@ proxies:
       Host: sg2.taoovpn.cloud
   udp: true  
 
-  - name: DO 🇸🇬 (Doble YT ZOOM)
+- name: DO 🇸🇬 (Doble YT ZOOM)
   server: support.zoom.us
   port: 443
   type: vless
