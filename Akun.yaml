@@ -81,8 +81,8 @@ proxies:
   udp: true  
 
   
-- name: Herza 🇮🇩 (ILPED 139)
-  server: 104.18.25.139
+- name: Herza 🇮🇩 (ILPED)
+  server: raja.taoomatoa.cloud
   type: vless
   port: 443
   uuid: ddf27957-0eb2-48a7-ad1c-6c460418bf61
