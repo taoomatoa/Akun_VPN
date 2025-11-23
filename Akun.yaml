@@ -1,129 +1,87 @@
 proxies:
 
-- name: DO 🇸🇬 (Vidio 240)
-  server: 104.22.4.240
+- name: Vmess Neva-SG (edu)
+  server: edu.ruangguru.com
   port: 443
-  type: vless
-  uuid: 99e09016-356b-4f35-918f-f57567e3da0e
+  type: vmess
+  uuid: 7a6c7733-dfd3-4f1b-b416-be877f85e2e5
+  alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: sg2.taoovpn.cloud
+  servername: neva.taoovpn.cloud
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /vmess
     headers:
-      Host: sg2.taoovpn.cloud
-  udp: true  
+      Host: neva.taoovpn.cloud
+  udp: true
 
-- name: DO 🇸🇬 (Doble YT ZOOM)
-  server: support.zoom.us
-  port: 443
-  type: vless
-  uuid: 99e09016-356b-4f35-918f-f57567e3da0e
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.sg2.taoovpn.cloud
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: support.zoom.us.sg2.taoovpn.cloud
-  udp: true  
-
-- name: DO 🇸🇬 (Doble YT IP)
+  - name: Vmess Neva-SG (yt)
   server: 104.17.3.81
   port: 443
-  type: vless
-  uuid: 99e09016-356b-4f35-918f-f57567e3da0e
+  type: vmess
+  uuid: 7a6c7733-dfd3-4f1b-b416-be877f85e2e5
+  alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: sg2.taoovpn.cloud
+  servername: neva.taoovpn.cloud
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /vmess
     headers:
-      Host: sg2.taoovpn.cloud
-  udp: true  
+      Host: neva.taoovpn.cloud
+  udp: true
 
-- name: DO 🇸🇬 (Super AVA)
-  server: ava.game.naver.com
-  port: 443
-  type: vless
-  uuid: 99e09016-356b-4f35-918f-f57567e3da0e
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: ava.game.naver.com.sg2.taoovpn.cloud
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: ava.game.naver.com.sg2.taoovpn.cloud
-  udp: true  
-
-    
-- name: CTeknologi 🇮🇩 (Vidio 14)
-  server: 172.67.5.14
-  type: vless
-  port: 443
-  uuid: 2d31d87f-78bf-4410-97c9-a8a083211eb7
-  tls: true
-  skip-cert-verify: true 
-  servername: id1.taoovpn.cloud
-  network: ws
-  ws-opts: 
-    path: /?ed=2048
-    Headers: 
-      Host: id1.taoovpn.cloud
-  udp: true  
-
-  
-- name: Herza 🇮🇩 (ILPED)
-  server: raja.taoomatoa.cloud
-  type: vless
-  port: 443
-  uuid: ddf27957-0eb2-48a7-ad1c-6c460418bf61
-  tls: true
-  skip-cert-verify: true 
-  servername: id2.taoovpn.cloud
-  network: ws
-  ws-opts: 
-    path: /?ed=2048
-    Headers: 
-      Host: id2.taoovpn.cloud
-  udp: true  
-
-- name: Herza 🇮🇩 (Doble YT ZOOM)
+  - name: Vmess Neva-SG (zoom)
   server: support.zoom.us
-  type: vless
   port: 443
-  uuid: ddf27957-0eb2-48a7-ad1c-6c460418bf61
+  type: vmess
+  uuid: 7a6c7733-dfd3-4f1b-b416-be877f85e2e5
+  alterId: 0
+  cipher: auto
   tls: true
-  skip-cert-verify: true 
-  servername: support.zoom.us.id2.taoovpn.cloud
+  skip-cert-verify: true
+  servername: support.zoom.us.neva.taoovpn.cloud
   network: ws
-  ws-opts: 
-    path: /?ed=2048
-    Headers: 
-      Host: support.zoom.us.id2.taoovpn.cloud
-  udp: true  
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: support.zoom.us.neva.taoovpn.cloud
+  udp: true
 
-  
-- name: Melbi 🇸🇬 (Vidio QUIZ)
+  - name: Vmess Neva-SG (vidio)
+  server: 104.22.4.240
+  port: 443
+  type: vmess
+  uuid: 7a6c7733-dfd3-4f1b-b416-be877f85e2e5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: neva.taoovpn.cloud
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: neva.taoovpn.cloud
+  udp: true
+
+- name: Vmess Neva-SG (quiz)
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: 77147492-4837-4338-b0e6-7b9cbbb749db
+  type: vmess
+  uuid: 7a6c7733-dfd3-4f1b-b416-be877f85e2e5
+  alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: quiz.int.vidio.com.sg1.taoovpn.cloud
+  servername: quiz.int.vidio.com.neva.taoovpn.cloud
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /vmess
     headers:
-      Host: quiz.int.vidio.com.sg1.taoovpn.cloud
-  udp: true  
+      Host: quiz.int.vidio.com.neva.taoovpn.cloud
+  udp: true
+  
