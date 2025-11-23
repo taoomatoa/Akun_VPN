@@ -17,7 +17,7 @@ proxies:
       Host: neva.taoovpn.cloud
   udp: true
 
-  - name: Vmess Neva-SG (yt)
+- name: Vmess Neva-SG (yt)
   server: 104.17.3.81
   port: 443
   type: vmess
@@ -34,7 +34,7 @@ proxies:
       Host: neva.taoovpn.cloud
   udp: true
 
-  - name: Vmess Neva-SG (zoom)
+- name: Vmess Neva-SG (zoom)
   server: support.zoom.us
   port: 443
   type: vmess
@@ -51,7 +51,7 @@ proxies:
       Host: support.zoom.us.neva.taoovpn.cloud
   udp: true
 
-  - name: Vmess Neva-SG (vidio)
+- name: Vmess Neva-SG (vidio)
   server: 104.22.4.240
   port: 443
   type: vmess
