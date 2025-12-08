@@ -1,5 +1,22 @@
 proxies:
 
+- name: Vmess Neva-SG (live.iflix.com)
+  server: neva.taoovpn.cloud
+  port: 443
+  type: vmess
+  uuid: 7a6c7733-dfd3-4f1b-b416-be877f85e2e5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: live.iflix.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: live.iflix.com
+  udp: true
+
 - name: Vmess Neva-SG (edu)
   server: edu.ruangguru.com
   port: 443
