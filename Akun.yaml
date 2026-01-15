@@ -1,7 +1,7 @@
 proxies:
 
 - name: Vmess Neva-SG (live.iflix.com)
-  server: neva.taoovpn.cloud
+  server: neva.azlan.biz.id
   port: 443
   type: vmess
   uuid: 7a6c7733-dfd3-4f1b-b416-be877f85e2e5
@@ -26,12 +26,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: neva.taoovpn.cloud
+  servername: neva.azlan.biz.id
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: neva.taoovpn.cloud
+      Host: neva.azlan.biz.id
   udp: true
 
 - name: Vmess Neva-SG (WA)
@@ -43,12 +43,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: neva.taoovpn.cloud
+  servername: neva.azlan.biz.id
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: neva.taoovpn.cloud
+      Host: neva.azlan.biz.id
   udp: true
 
 - name: Vmess Neva-SG (zoom)
@@ -60,12 +60,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: support.zoom.us.neva.taoovpn.cloud
+  servername: support.zoom.us.neva.azlan.biz.id
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: support.zoom.us.neva.taoovpn.cloud
+      Host: support.zoom.us.neva.azlan.biz.id
   udp: true
 
 - name: Vmess Neva-SG (vidio)
@@ -77,12 +77,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: neva.taoovpn.cloud
+  servername: neva.azlan.biz.id
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: neva.taoovpn.cloud
+      Host: neva.azlan.biz.id
   udp: true
 
 - name: Vmess Neva-SG (quiz)
@@ -94,11 +94,11 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: quiz.int.vidio.com.neva.taoovpn.cloud
+  servername: quiz.int.vidio.com.neva.azlan.biz.id
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: quiz.int.vidio.com.neva.taoovpn.cloud
+      Host: quiz.int.vidio.com.neva.azlan.biz.id
   udp: true
   
