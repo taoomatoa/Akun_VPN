@@ -34,8 +34,8 @@ proxies:
       Host: neva.azlan.biz.id
   udp: true
 
-- name: Vmess Neva-SG (WA)
-  server: 104.18.1.196
+- name: Vmess Neva-SG (IG)
+  server: neva.azlan.biz.id
   port: 443
   type: vmess
   uuid: 7a6c7733-dfd3-4f1b-b416-be877f85e2e5
@@ -43,12 +43,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: neva.azlan.biz.id
+  servername: graph.instagram.com
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: neva.azlan.biz.id
+      Host: graph.instagram.com
   udp: true
 
 - name: Vmess Neva-SG (zoom)
